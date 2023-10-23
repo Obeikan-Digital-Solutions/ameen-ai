@@ -52,7 +52,7 @@ function callAPI(message) {
         'Accept': 'application/json',
         'Authorization': 'Basic ' + btoa('JlPjWVHUwVLFUPgWnjrCGMBiF:dd72757e99cde30cf5e1262e4ac6e1255c8122212d7fdee059707298bfe67201')
     }
-    fetch('http://dev2.osaned.com:3005/api/ameen-ai/chat', {
+    fetch('https://dev2.osaned.com:3005/api/ameen-ai/chat', {
         method: 'POST',
         headers: headers,
         body: JSON.stringify({question: message})
