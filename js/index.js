@@ -79,7 +79,7 @@ function newMessage(message) {
 $(document).ready(()=>{
     $('#TooltipDemo').hide();
     botIsTyping.hide()
-    newMessage(addMessage(`Hi there!👋, I'm Audit AI🤖 You personal assassinate. <br> how can I help you?`, 'bot'))
+    newMessage(addMessage(`Hi there!👋, I'm Audit AI🤖 Your personal assistant. <br> how can I help you?`, 'bot'))
     let chatWarpper = $('.chat-wrapper');
     $('input').keypress(function(event) {
         if (event.keyCode === 13) {
